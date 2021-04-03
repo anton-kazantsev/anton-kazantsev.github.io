@@ -1,0 +1,208 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    text-align: right;
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.subheader .subheader_phone {
+    line-height: 12px;
+    margin-top: 8px;
+    display: block;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.subheader .subheader_btn {
+    margin-top: 16px;
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/layers/firs_layers.png') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.info {
+    padding: 71px 0 65px 0;
+}
+
+.advantages {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    padding: 5px 12px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.info_head {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.info .logo_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.info .logo_block .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    margin-right: 26px;
+}
+
+.info .logo_block .logo_text {
+    width: 343px;
+}
+
+.info .logo_block .logo_text .logo_head {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.info .logo_block .logo_text .logo_subhead {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+}
+
